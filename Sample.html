@@ -14,15 +14,15 @@
 
 </script>
 
-<script>
-var url;
-url=getUPILink("nilesh.bandhiya@upi","Nilesh");
-//window.alert(url);
-	document.write("<a href=".url." />");
-</script>
+	<script>
+		var url;
+		url=getUPILink("nilesh.bandhiya@upi","Nilesh");
+		//window.alert(url);
+		var PT = document.getElementById("PayTag");
+		PT.innerHTMl="Test";
+	</script>
 
 This is a example of UPI. And just click on below button to pay me.
-	<button onclick="">Click here to pay</button>
-	
+	<a id="PayTag">Click Here</a>	
 </body>
 </html>
